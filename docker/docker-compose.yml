@@ -12,7 +12,7 @@ services:
           devices:
             - capabilities:
               - gpu
-    shm_size: "8gb"
+    shm_size: "6gb"
     ulimits:
       memlock: -1
       stack: 67108864
