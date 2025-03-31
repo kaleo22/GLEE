@@ -3,7 +3,7 @@
 
 BIN="python tools/train_net.py"
 OUTPUT="inference_test_output"
-NUM_GPUS=2
+NUM_GPUS=1
 
 CFG_LIST=( "${@:1}" )
 
